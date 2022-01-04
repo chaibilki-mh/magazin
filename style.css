@@ -8,9 +8,24 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/bg.jpeg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
 }
+.main1{
+    width: 100%;
+    background: #9fa397;
+    background-position: center;
+    background-size: cover;
+}
+.main2{
+    width: 100%;
+    background: #9fa397;
+    background-position: center;
+    background-size: cover;
+}
+
+
 nav{
+   
     display:  flex;
     padding: 2% 2%;
     justify-content: space-between;
@@ -20,7 +35,8 @@ nav img{
     width: 50px;
 }
 
-.links{
+.links{ 
+
 margin-right: 250px;
 width: 350px;
 height: 70px;
@@ -116,6 +132,17 @@ font-size: 62px;
 .btn:focus{
     outline: none;
 }
+.btn1{
+    width: 80px;
+    height: 30px;
+    background: white;
+    border: none;
+    margin-top: 13px;
+    color: #9fa397;
+    font-size: 14px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
 .srch:focus{
     outline: none;
 }
@@ -124,7 +151,7 @@ font-size: 62px;
     background: #9fa397;
     width: 100%;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 30px;    
 }
 h1{
@@ -174,9 +201,9 @@ h1{
     background: white;
     width: 100%;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 30px;
-    height: 80vh;
+    height: 90vh;
 }
 .contact h1{
     color: #9fa397;
@@ -202,14 +229,14 @@ h1{
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/Drink-Tea-Cup-Rose-Petals-6871720.jpeg);
     background-position: center;
     background-size: cover;
-    height: 70vh;
+    height: 90vh;
     
 }
 .more{
-    width: 90%;
+    width: 80%;
     color: white;
     position: relative;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -219,14 +246,13 @@ h1{
 .more h1{
     float: center;
     color: white;
-    text-align: right;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .more p{
     float: center;
     color: white;
-    margin-top: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
+   
 }
 .end{
     width: 100%;;
